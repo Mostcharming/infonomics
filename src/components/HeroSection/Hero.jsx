@@ -2,6 +2,8 @@ import Marquee from "react-fast-marquee";
 import { useThemeContext } from "../../context/Context";
 import "./style.scss";
 
+import React from "react";
+
 const Hero = () => {
   const { theme } = useThemeContext();
 
@@ -20,6 +22,7 @@ const Hero = () => {
 
   return (
     <div className="hero-section" style={heroStyles(theme)}>
+     
       <div className="hero-container">
         <div className="hero-left">
           <div className="text-cont">
@@ -53,6 +56,8 @@ const Hero = () => {
           <img src="/hero-img.png" />
         </div>
       </div>
+
+    
 
       <Marquee className="hero-bottom">
         <img src="/mtn.svg" />
