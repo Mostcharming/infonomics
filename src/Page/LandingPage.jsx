@@ -56,6 +56,8 @@ const LandingPage = () => {
         alt="background"
         className="background_square square5"
       />
+
+      
       <img
         src="/bgJar.svg"
         alt="background"
