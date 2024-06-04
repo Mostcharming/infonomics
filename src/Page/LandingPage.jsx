@@ -70,7 +70,7 @@ const LandingPage = () => {
         <div className="modal-header justify-content-center">
           <button className="close" onClick={() => setDemoModal(false)}>
           X
-            <i className="tim-icons icon-simple-remove" />
+            {/* <i className="tim-icons icon-simple-remove" /> */}
           </button>
           <h4 className="title title-up">PRESS RELEASE/DISCLAIMER</h4>
         </div>
